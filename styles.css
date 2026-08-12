@@ -1,0 +1,58 @@
+/* cores padrão */
+:root {
+    --bg-color: #ffffff;     /* fundo claro */
+    --text-color: #212529;   /* texto escuro */
+}
+
+
+/* cores escuras */
+html.modo-escuro {
+    --bg-color: #121212;     /* fundo escuro */
+    --text-color: #f8f9fa;   /* texto claro */
+}
+
+/*isso força o html a usar as cores css e não do bootstrap*/
+html, body {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+    transition: background-color 0.4s ease, color 0.4s ease; /* hover pra trocar os modos devagar */
+}
+
+/* muda a cor da navbar tb*/
+html.modo-escuro .navbar {
+    background-color: #1f1f1f !important;
+    transition: background-color 0.4s ease;/* hover pra trocar os modos devagar */
+}
+
+/* muda a cor do texto da nav*/
+html.modo-escuro .navbar-brand {
+    color: #f8f9fa !important;
+}
+
+/* faz o botao escurecer no modo escuro*/
+html.modo-escuro #modos {
+    color: #f8f9fa;          /* Texto branco */
+    border-color: #f8f9fa;   /* Borda branca */
+    background-color: transparent;
+}
+
+
+
+
+/* ALTERNAR ENTRE CLARO E ESCURO*/
+
+.conteudo-claro {
+    display: block;
+}
+.conteudo-escuro {
+    display: none;
+}
+/* aqui vai deixar o conteudo claro aparecendo e o escuro apagado*/
+
+.modo-escuro .conteudo-claro {
+    display: none;
+}
+.modo-escuro .conteudo-escuro {
+    display: block;
+}
+/* aqui troca o que aparece quando apertamos o botao e mudamos o modo*/
