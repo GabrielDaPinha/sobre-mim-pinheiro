@@ -81,12 +81,32 @@ body {
 /* arrumando a mini biografia e foto*/
 
 .foto-perfil {
-    max-width: 30%;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+    padding: 5% !important;
 }
-.foto-perfil img {
-    width: 100%;
-    height: auto;
+
+/*===============FONTES===============*/
+
+.inter-400 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
+
+.inter-900 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+/*===============FONTES================*/
+
+
 
 /*==========NEON AZUL==========*/
 .neon-azul-vazado {

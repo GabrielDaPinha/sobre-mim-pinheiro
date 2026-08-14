@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- fonte 1 -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
 </head>
 
 <body>
@@ -15,26 +19,81 @@
     <header>
         <nav class="navbar fixed-top bg-body-tertiary">
             <div class="container-fluid">
-                <h1 class="navbar-brand topo-da-tela" href="#">Sobre Mim</h1>
+                <h1 class="navbar-brand topo-da-tela">Sobre Mim</h1>
                 <button id="modos" class="botao-maior">Modo Escuro</button>
             </div>
         </nav>
     </header>
     <!-- ================== MODO CLARO ================== -->
     <div class="conteudo-claro">
-        
-        
-        <div class="container text-center">
-  <div class="row align-items-start">
-    <div class="row col-8">
-      <h1>Mini Biografia</h1>
-        <p>Meu nome é Gabriel Pinheiro, nasci dia 30 de Janeiro de 2008 na cidade de Indaiatuba.</p>
-    </div>
-    <div class="row col-4">
-      <img src="img/Messi.png" alt="" class="foto-perfil">
-    </div>
-  </div>
-</div>
+        <!-- sessão 1 -->
+        <div class="container vh-100 d-flex align-items-center text-justify">
+            <!-- isso deixa cada sessão em uma tela -->
+            <div class="row align-items-center w-100"> <!-- e isso pra ocupar tudo horizontalmente -->
+                <div class="col-8"> <!-- aqui é pra ocupar 2/3 da tela -->
+                    <h1 class="inter-900" style="font-size: 2.5rem;">Mini Biografia</h1>
+                    <p class="inter-400" style="font-size: 1.4rem;">Meu nome é Gabriel Pinheiro, nasci dia 30 de Janeiro
+                        de 2008 na cidade de
+                        Indaiatuba, onde
+                        basicamente passei minha vida toda, exceto em 2024 que me mudei para o Rio Grande do Sul, mas
+                        foi só um ano lá e logo eu voltei para Indaiatuba, o que eu aprendi lá? Nada kkk, achou que eu
+                        fosse ter uma lição pra levar pra vida?</p>
+                </div>
+                <div class="col-4"> <!-- aqui 1/3 -->
+                    <img src="img/Messi.png" alt="" class="foto-perfil">
+                </div>
+            </div>
+        </div>
+        <!-- sessão 2 -->
+        <div class="container vh-100 d-flex align-items-center text-justify">
+            <div class="row align-items-center w-100">
+                <div class="col-4">
+                    <img src="img/winter_square.png" alt="" class="foto-perfil">
+                </div>
+                <div class="col-8">
+                    <h1 class="inter-900" style="font-size: 2.5rem;">Primeiro Projeto HTML</h1>
+                    <p class="inter-400" style="font-size: 1.4rem;">O meu primeiro projeto em html foi feito com meu
+                        parceiro Lucas de Oliveira, a ideia era ser como o site de um mercado, não acho que ficou bom
+                        não, mas quando estavamos fazendo parecia revolucionário, aliás, entre no <a
+                            href="https://trabalhos-do-mario.vercel.app/">site</a> e tente achar o escudo do vasco
+                        girando, duvido que consiga por conta própria.</p>
+                </div>
+            </div>
+        </div>
+        <!-- sessão 3 -->
+        <div class="container vh-100 d-flex align-items-center text-justify">
+            <div class="row align-items-center w-100">
+                <div class="col-8">
+                    <h1 class="inter-900" style="font-size: 2.5rem;">"Refazendo o Primeiro Projeto"</h1>
+                    <p class="inter-400" style="font-size: 1.4rem;">Um belo dia, numa aula de desenvolvimento web o
+                        professor decidiu nos mostrar o Bootstrap, e na aula, eu e o Lucas resolvemos fazer outro site
+                        de mercado, dessa vez focado em bootstrap, ficou muito melhor, nossa criatividade imensa nos deu
+                        o nome "Amazono Strap", Amazono e Amazon e Strap de Bootstrap, clique <a
+                            href="https://amazono-strap.vercel.app/">aqui</a> e de uma olhada na nossa evolução. A é,
+                        tente achar o goleiro olhando para o nada fazendo cara de mal, esse é facil e tem dois jeitos de
+                        achar.</p>
+                </div>
+                <div class="col-4">
+                    <img src="img/amazono.jpg" alt="" class="foto-perfil">
+                </div>
+            </div>
+        </div>
+        <!-- sessão 4 -->
+        <div class="container vh-100 d-flex align-items-center text-justify">
+            <div class="row align-items-center w-100">
+                <div class="col-4">
+                    <img src="img/apiscale.png" alt="" class="foto-perfil">
+                </div>
+                <div class="col-8">
+                    <h1 class="inter-900" style="font-size: 2.5rem;">Maior Projeto</h1>
+                    <p class="inter-400" style="font-size: 1.4rem;">O maior projeto que eu participei até agora é a PI
+                        que tivemos, deu realmente muito trabalho e levou tempo, não à toa usamos um semestre para
+                        fazer, e pretendemos trabalhar ainda mais nele, da uma olhada lá, tá muito top, só clicar <a
+                            href="https://projeto-pji-one.vercel.app/">aqui</a>, e vá lá pra baixo ver todos que
+                        participaram.</p>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- ================== MODO ESCURO ================== -->
     <div class="conteudo-escuro">
