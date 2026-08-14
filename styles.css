@@ -56,3 +56,90 @@ html.modo-escuro #modos {
     display: block;
 }
 /* aqui troca o que aparece quando apertamos o botao e mudamos o modo*/
+
+
+/* arrumando a navbar, deixando maior e tirando o conteudo de baixo*/
+body {
+    padding-top: 90px; /* dá um espaçamento no topo pra não ficar em cima da navbar */
+}
+.topo-da-tela {
+    font-size: 2.5rem !important;
+    color: var(--text-color) !important;
+}
+.botao-maior {
+    font-size: 1.5rem !important;
+    color: var(--text-color) !important;
+}
+
+/* arrumando a mini biografia e foto*/
+
+
+
+/*==========NEON AZUL==========*/
+.neon-azul-vazado {
+    color: transparent !important;
+    -webkit-text-stroke: 1.5px #00d2ff;
+    filter: drop-shadow(0 0 5px #00d2ff);
+}
+.neon-azul {
+    color: #00d2ff !important;
+    text-shadow: 0 0 3px rgba(0, 210, 255, 0.4),
+        0 0 6px rgba(0, 210, 255, 0.2);
+    display: inline-block;
+}
+/*===================================================*/
+
+
+
+/*==========NEON ROSA==========*/
+.neon-rosa-vazado {
+    color: transparent !important;
+    -webkit-text-stroke: 1.5px #ff00ff;
+    filter: drop-shadow(0 0 5px #ff00ff);
+}
+
+.neon-rosa {
+    color: #ff00ff !important;
+    text-shadow: 0 0 3px rgba(255, 0, 255, 0.4),
+        0 0 6px rgba(255, 0, 255, 0.2);
+    display: inline-block;
+}
+/*===================================================*/
+
+
+
+/*==========HABILITA O PISCA PISCA AZUL==========*/
+.piscante {
+    animation: piscar-neon 1.5s infinite alternate;
+}
+
+@keyframes piscar-neon {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        filter: drop-shadow(0 0 5px #00d2ff);
+        opacity: 1;
+    }
+    20%, 24%, 55% {        
+        filter: none;
+        opacity: 0.2;
+    }
+}
+/*===================================================*/
+
+
+
+/*==========HABILITA O PISCA PISCA ROSA==========*/
+.piscante-rosa {
+    animation: piscar-neon-rosa 1.5s infinite alternate;
+}
+
+@keyframes piscar-neon-rosa {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        filter: drop-shadow(0 0 5px #ff00ff);
+        opacity: 1;
+    }
+    20%, 24%, 55% {        
+        filter: none;
+        opacity: 0.2;
+    }
+}
+/*===================================================*/
