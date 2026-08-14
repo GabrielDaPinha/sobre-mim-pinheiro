@@ -60,15 +60,22 @@ html.modo-escuro #modos {
 
 /* arrumando a navbar, deixando maior e tirando o conteudo de baixo*/
 body {
-    padding-top: 90px; /* dá um espaçamento no topo pra não ficar em cima da navbar */
+    padding-top: 90px !important; /* dá um espaçamento no topo pra não ficar em cima da navbar */
 }
 .topo-da-tela {
     font-size: 2.5rem !important;
     color: var(--text-color) !important;
+    max-height: 90px !important;
+    max-width: 40% !important;
 }
 .botao-maior {
     font-size: 1.5rem !important;
     color: var(--text-color) !important;
+    max-height: 90px !important;
+    max-width: 40% !important;
+}
+.navbar {
+    max-height: 90px !important;
 }
 
 /* arrumando a mini biografia e foto*/
