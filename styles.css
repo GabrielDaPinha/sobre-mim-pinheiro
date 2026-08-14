@@ -73,7 +73,13 @@ body {
 
 /* arrumando a mini biografia e foto*/
 
-
+.foto-perfil {
+    max-width: 30%;
+}
+.foto-perfil img {
+    width: 100%;
+    height: auto;
+}
 
 /*==========NEON AZUL==========*/
 .neon-azul-vazado {
