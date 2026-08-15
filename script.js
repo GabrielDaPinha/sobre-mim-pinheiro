@@ -12,6 +12,7 @@ botao.addEventListener('click', () => {
     } else {
         botao.textContent = 'Modo Escuro';
     }
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // volta a tela pro todo
 });
 
 
