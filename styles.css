@@ -143,7 +143,7 @@ html.modo-escuro .sessao-4 {
 /*==========NEON AZUL==========*/
 .neon-azul-vazado {
     color: transparent !important;
-    -webkit-text-stroke: 1.5px #00d2ff;
+    -webkit-text-stroke: 1px #00d2ff;
     filter: drop-shadow(0 0 5px #00d2ff);
 }
 .neon-azul {
@@ -163,7 +163,7 @@ html.modo-escuro .sessao-4 {
 
 @keyframes piscar-neon {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
-        filter: drop-shadow(0 0 5px #00d2ff);
+        filter: drop-shadow(0 0 50px #00d2ff);
         opacity: 1;
     }
     20%, 24%, 55% {        
@@ -178,7 +178,7 @@ html.modo-escuro .sessao-4 {
 /*==========NEON ROSA==========*/
 .neon-rosa-vazado {
     color: transparent !important;
-    -webkit-text-stroke: 1.5px #ff00ff;
+    -webkit-text-stroke: 1px #ff00ff;
     filter: drop-shadow(0 0 5px #ff00ff);
 }
 
@@ -199,7 +199,7 @@ html.modo-escuro .sessao-4 {
 
 @keyframes piscar-neon-rosa {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
-        filter: drop-shadow(0 0 5px #ff00ff);
+        filter: drop-shadow(0 0 50px #ff00ff);
         opacity: 1;
     }
     20%, 24%, 55% {        
@@ -214,7 +214,7 @@ html.modo-escuro .sessao-4 {
 /*==========NEON VERDE==========*/
 .neon-verde-vazado {
     color: transparent !important;
-    -webkit-text-stroke: 1.5px #00ff66;
+    -webkit-text-stroke: 1px #00ff66;
     filter: drop-shadow(0 0 5px #00ff66);
 }
 
@@ -233,7 +233,7 @@ html.modo-escuro .sessao-4 {
 
 @keyframes piscar-neon-verde {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
-        filter: drop-shadow(0 0 5px #00ff66);
+        filter: drop-shadow(0 0 50px #00ff66);
         opacity: 1;
     }
     20%, 24%, 55% {        
@@ -248,7 +248,7 @@ html.modo-escuro .sessao-4 {
 /*==========NEON AMARELO==========*/
 .neon-amarelo-vazado {
     color: transparent !important;
-    -webkit-text-stroke: 1.5px #ffe600;
+    -webkit-text-stroke: 1px #ffe600;
     filter: drop-shadow(0 0 5px #ffe600);
 }
 
@@ -267,7 +267,7 @@ html.modo-escuro .sessao-4 {
 
 @keyframes piscar-neon-amarelo {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
-        filter: drop-shadow(0 0 5px #ffe600);
+        filter: drop-shadow(0 0 50px #ffe600);
         opacity: 1;
     }
     20%, 24%, 55% {        
@@ -282,7 +282,7 @@ html.modo-escuro .sessao-4 {
 /*==========NEON ROXO==========*/
 .neon-roxo-vazado {
     color: transparent !important;
-    -webkit-text-stroke: 1.5px #9900ff;
+    -webkit-text-stroke: 1px #9900ff;
     filter: drop-shadow(0 0 5px #9900ff);
 }
 
@@ -301,7 +301,7 @@ html.modo-escuro .sessao-4 {
 
 @keyframes piscar-neon-roxo {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
-        filter: drop-shadow(0 0 5px #9900ff);
+        filter: drop-shadow(0 0 50px #9900ff);
         opacity: 1;
     }
     20%, 24%, 55% {        
@@ -316,7 +316,7 @@ html.modo-escuro .sessao-4 {
 /*==========NEON LARANJA==========*/
 .neon-laranja-vazado {
     color: transparent !important;
-    -webkit-text-stroke: 1.5px #ff6600;
+    -webkit-text-stroke: 1px #ff6600;
     filter: drop-shadow(0 0 5px #ff6600);
 }
 
@@ -335,7 +335,7 @@ html.modo-escuro .sessao-4 {
 
 @keyframes piscar-neon-laranja {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
-        filter: drop-shadow(0 0 5px #ff6600);
+        filter: drop-shadow(0 0 50px #ff6600);
         opacity: 1;
     }
     20%, 24%, 55% {        
@@ -350,8 +350,8 @@ html.modo-escuro .sessao-4 {
 /*==========NEON VERMELHO==========*/
 .neon-vermelho-vazado {
     color: transparent !important;
-    -webkit-text-stroke: 1.5px #ff0033;
-    filter: drop-shadow(0 0 5px #ff0033);
+    -webkit-text-stroke: 1px #ff0033;
+    filter: drop-shadow(0 0 50px #ff0033);
 }
 
 .neon-vermelho {
@@ -369,7 +369,7 @@ html.modo-escuro .sessao-4 {
 
 @keyframes piscar-neon-vermelho {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
-        filter: drop-shadow(0 0 5px #ff0033);
+        filter: drop-shadow(0 0 50px #ff0033);
         opacity: 1;
     }
     20%, 24%, 55% {        
