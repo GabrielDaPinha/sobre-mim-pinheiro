@@ -121,16 +121,20 @@ html.modo-escuro .conteudo-escuro .container {
 
 /* Cor da primeira seção (ex: Tom azulado escuro) */
 html.modo-escuro .sessao-1 {
-    background: linear-gradient(90deg, #121212 0%, #7a1f1f 100%, transparent 100%) !important;
+    background: linear-gradient(90deg, #121212 0%, #7a1f1f77 100%, transparent 100%) !important;
 }
 
 /* Cor da segunda seção (ex: Tom avermelhado/vinho escuro) */
 html.modo-escuro .sessao-2 {
-    background: linear-gradient(90deg, #2c6e1f 0%, #121212 100%, transparent 100%) !important;
+    background: linear-gradient(90deg, #2c6e1f62 0%, #121212 100%, transparent 100%) !important;
 }
 
 html.modo-escuro .sessao-3 {
-    background: linear-gradient(90deg, #121212 0%, #c57417 100%, transparent 100%) !important;
+    background: linear-gradient(90deg, #121212 0%, #ff730046 100%, transparent 100%) !important;
+}
+
+html.modo-escuro .sessao-4 {
+    background: linear-gradient(90deg, #00e5ff42 0%, #121212 100%, transparent 100%) !important;
 }
 /*=====================EFEITOS DO MODO ESCURO=====================*/
 

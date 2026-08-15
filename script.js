@@ -21,7 +21,7 @@ botao.addEventListener('click', () => {
 
 
 document.addEventListener("DOMContentLoaded", () => {
-    const sessoes = document.querySelectorAll(".sessao-1, .sessao-2, .sessao-3");
+    const sessoes = document.querySelectorAll(".sessao-1, .sessao-2, .sessao-3, .sessao-4");
 
     function fadeAudio(audio, targetVolume, duration = 1500) {
         if (!audio) return;
