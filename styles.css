@@ -60,7 +60,7 @@ html.modo-escuro #modos {
 
 /* arrumando a navbar, deixando maior e tirando o conteudo de baixo*/
 body {
-    padding-top: 90px !important; /* dá um espaçamento no topo pra não ficar em cima da navbar */
+    padding-top: 80px !important; /* dá um espaçamento no topo pra não ficar em cima da navbar */
 }
 .topo-da-tela {
     font-size: 2.5rem !important;
@@ -108,6 +108,34 @@ body {
 
 
 
+
+/*=====================EFEITOS DO MODO ESCURO=====================*/
+html.modo-escuro .conteudo-escuro .container {
+    max-width: 100% !important; /* Remove o limite de largura do bootstrap */
+    width: 100% !important;
+    padding-left: 5vw !important;  /* Da um espaço nas bordas para o texto não colar no canto */
+    padding-right: 5vw !important;
+    color: #f8f9fa !important;
+    transition: background 0.4s ease, color 0.4s ease;
+}
+
+/* Cor da primeira seção (ex: Tom azulado escuro) */
+html.modo-escuro .sessao-1 {
+    background: linear-gradient(90deg, #121212 0%, #7a1f1f 100%, transparent 100%) !important;
+}
+
+/* Cor da segunda seção (ex: Tom avermelhado/vinho escuro) */
+html.modo-escuro .sessao-2 {
+    background: linear-gradient(90deg, #2c6e1f 0%, #121212 100%, transparent 100%) !important;
+}
+
+html.modo-escuro .sessao-3 {
+    background: linear-gradient(90deg, #121212 0%, #7a781f 100%, transparent 100%) !important;
+}
+/*=====================EFEITOS DO MODO ESCURO=====================*/
+
+
+
 /*==========NEON AZUL==========*/
 .neon-azul-vazado {
     color: transparent !important;
@@ -118,23 +146,6 @@ body {
     color: #00d2ff !important;
     text-shadow: 0 0 3px rgba(0, 210, 255, 0.4),
         0 0 6px rgba(0, 210, 255, 0.2);
-    display: inline-block;
-}
-/*===================================================*/
-
-
-
-/*==========NEON ROSA==========*/
-.neon-rosa-vazado {
-    color: transparent !important;
-    -webkit-text-stroke: 1.5px #ff00ff;
-    filter: drop-shadow(0 0 5px #ff00ff);
-}
-
-.neon-rosa {
-    color: #ff00ff !important;
-    text-shadow: 0 0 3px rgba(255, 0, 255, 0.4),
-        0 0 6px rgba(255, 0, 255, 0.2);
     display: inline-block;
 }
 /*===================================================*/
@@ -160,6 +171,23 @@ body {
 
 
 
+/*==========NEON ROSA==========*/
+.neon-rosa-vazado {
+    color: transparent !important;
+    -webkit-text-stroke: 1.5px #ff00ff;
+    filter: drop-shadow(0 0 5px #ff00ff);
+}
+
+.neon-rosa {
+    color: #ff00ff !important;
+    text-shadow: 0 0 3px rgba(255, 0, 255, 0.4),
+        0 0 6px rgba(255, 0, 255, 0.2);
+    display: inline-block;
+}
+/*===================================================*/
+
+
+
 /*==========HABILITA O PISCA PISCA ROSA==========*/
 .piscante-rosa {
     animation: piscar-neon-rosa 1.5s infinite alternate;
@@ -168,6 +196,176 @@ body {
 @keyframes piscar-neon-rosa {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
         filter: drop-shadow(0 0 5px #ff00ff);
+        opacity: 1;
+    }
+    20%, 24%, 55% {        
+        filter: none;
+        opacity: 0.2;
+    }
+}
+/*===================================================*/
+
+
+
+/*==========NEON VERDE==========*/
+.neon-verde-vazado {
+    color: transparent !important;
+    -webkit-text-stroke: 1.5px #00ff66;
+    filter: drop-shadow(0 0 5px #00ff66);
+}
+
+.neon-verde {
+    color: #00ff66 !important;
+    text-shadow: 0 0 3px rgba(0, 255, 102, 0.4),
+        0 0 6px rgba(0, 255, 102, 0.2);
+    display: inline-block;
+}
+/*===================================================*/
+
+/*==========HABILITA O PISCA PISCA VERDE==========*/
+.piscante-verde {
+    animation: piscar-neon-verde 1.5s infinite alternate;
+}
+
+@keyframes piscar-neon-verde {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        filter: drop-shadow(0 0 5px #00ff66);
+        opacity: 1;
+    }
+    20%, 24%, 55% {        
+        filter: none;
+        opacity: 0.2;
+    }
+}
+/*===================================================*/
+
+
+
+/*==========NEON AMARELO==========*/
+.neon-amarelo-vazado {
+    color: transparent !important;
+    -webkit-text-stroke: 1.5px #ffe600;
+    filter: drop-shadow(0 0 5px #ffe600);
+}
+
+.neon-amarelo {
+    color: #ffe600 !important;
+    text-shadow: 0 0 3px rgba(255, 230, 0, 0.4),
+        0 0 6px rgba(255, 230, 0, 0.2);
+    display: inline-block;
+}
+/*===================================================*/
+
+/*==========HABILITA O PISCA PISCA AMARELO==========*/
+.piscante-amarelo {
+    animation: piscar-neon-amarelo 1.5s infinite alternate;
+}
+
+@keyframes piscar-neon-amarelo {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        filter: drop-shadow(0 0 5px #ffe600);
+        opacity: 1;
+    }
+    20%, 24%, 55% {        
+        filter: none;
+        opacity: 0.2;
+    }
+}
+/*===================================================*/
+
+
+
+/*==========NEON ROXO==========*/
+.neon-roxo-vazado {
+    color: transparent !important;
+    -webkit-text-stroke: 1.5px #9900ff;
+    filter: drop-shadow(0 0 5px #9900ff);
+}
+
+.neon-roxo {
+    color: #9900ff !important;
+    text-shadow: 0 0 3px rgba(153, 0, 255, 0.4),
+        0 0 6px rgba(153, 0, 255, 0.2);
+    display: inline-block;
+}
+/*===================================================*/
+
+/*==========HABILITA O PISCA PISCA ROXO==========*/
+.piscante-roxo {
+    animation: piscar-neon-roxo 1.5s infinite alternate;
+}
+
+@keyframes piscar-neon-roxo {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        filter: drop-shadow(0 0 5px #9900ff);
+        opacity: 1;
+    }
+    20%, 24%, 55% {        
+        filter: none;
+        opacity: 0.2;
+    }
+}
+/*===================================================*/
+
+
+
+/*==========NEON LARANJA==========*/
+.neon-laranja-vazado {
+    color: transparent !important;
+    -webkit-text-stroke: 1.5px #ff6600;
+    filter: drop-shadow(0 0 5px #ff6600);
+}
+
+.neon-laranja {
+    color: #ff6600 !important;
+    text-shadow: 0 0 3px rgba(255, 102, 0, 0.4),
+        0 0 6px rgba(255, 102, 0, 0.2);
+    display: inline-block;
+}
+/*===================================================*/
+
+/*==========HABILITA O PISCA PISCA LARANJA==========*/
+.piscante-laranja {
+    animation: piscar-neon-laranja 1.5s infinite alternate;
+}
+
+@keyframes piscar-neon-laranja {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        filter: drop-shadow(0 0 5px #ff6600);
+        opacity: 1;
+    }
+    20%, 24%, 55% {        
+        filter: none;
+        opacity: 0.2;
+    }
+}
+/*===================================================*/
+
+
+
+/*==========NEON VERMELHO==========*/
+.neon-vermelho-vazado {
+    color: transparent !important;
+    -webkit-text-stroke: 1.5px #ff0033;
+    filter: drop-shadow(0 0 5px #ff0033);
+}
+
+.neon-vermelho {
+    color: #ff0033 !important;
+    text-shadow: 0 0 3px rgba(255, 0, 51, 0.4),
+        0 0 6px rgba(255, 0, 51, 0.2);
+    display: inline-block;
+}
+/*===================================================*/
+
+/*==========HABILITA O PISCA PISCA VERMELHO==========*/
+.piscante-vermelho {
+    animation: piscar-neon-vermelho 1.5s infinite alternate;
+}
+
+@keyframes piscar-neon-vermelho {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        filter: drop-shadow(0 0 5px #ff0033);
         opacity: 1;
     }
     20%, 24%, 55% {        
