@@ -20,8 +20,9 @@ html, body {
 
 /* muda a cor da navbar tb*/
 html.modo-escuro .navbar {
-    background-color: #1f1f1f !important;
+    background-color: #1f1f1fb4 !important;
     transition: background-color 0.4s ease;/* hover pra trocar os modos devagar */
+    backdrop-filter: blur(18px);
 }
 
 /* muda a cor do texto da nav*/
